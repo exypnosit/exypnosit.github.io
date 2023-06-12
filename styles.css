@@ -198,27 +198,27 @@ html {
   }
   
   .w-icon-slider-right:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   .w-icon-slider-left:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   .w-icon-nav-menu:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   .w-icon-file-upload-remove:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   .w-icon-file-upload-icon:before {
-    content: url('/images/menu.png');
+    content: url('/main/images/menu.png');
   }
   
   * {
