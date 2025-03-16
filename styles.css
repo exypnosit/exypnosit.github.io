@@ -196,31 +196,22 @@ html {
     line-height: 1;
     font-family: webflow-icons !important;
   }
-  
-  .w-icon-slider-right:before {
-    content: url('/main/images/menu.png');
-  }
-  
-  .w-icon-slider-left:before {
-    content: url('/main/images/menu.png');
-  }
-  
-  .w-icon-nav-menu:before {
-    content: url('/main/images/menu.png');
-  }
-  
-  .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: url('/main/images/menu.png');
-  }
-  
-  .w-icon-file-upload-remove:before {
-    content: url('/main/images/menu.png');
-  }
-  
-  .w-icon-file-upload-icon:before {
-    content: url('/main/images/menu.png');
-  }
-  
+  .w-icon-slider-right,
+.w-icon-slider-left,
+.w-icon-nav-menu,
+.w-icon-arrow-down,
+.w-icon-dropdown-toggle,
+.w-icon-file-upload-remove,
+.w-icon-file-upload-icon {
+    background-image: url('/images/menu.png');  /* Adjust this path if necessary */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;  /* Adjust size as needed */
+    height: 30px;
+    text-indent: -9999px; /* Hides text if present */
+}
+
   * {
     box-sizing: border-box;
   }
